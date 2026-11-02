@@ -1,0 +1,62 @@
+USE QLSinhVien;
+INSERT INTO SinhVien
+(MaSV, HoTen, NgaySinh, GioiTinh, Khoa, Lop, DiemTB, Email)
+VALUES
+('SV001', 'Nguyen Van An', '2005-01-15', 'Nam', 'Cong nghe thong tin', 'CNTT15.1', 8.50, 'an@gmail.com'),
+('SV002', 'Tran Thi Binh', '2005-03-20', 'Nu', 'Cong nghe thong tin', 'CNTT15.1', 7.80, 'binh@gmail.com'),
+('SV003', 'Le Van Cuong', '2004-06-12', 'Nam', 'Ke toan', 'KT15.1', 6.90, 'cuong@gmail.com'),
+('SV004', 'Pham Thi Dung', '2005-08-25', 'Nu', 'Quan tri kinh doanh', 'QTKD15.1', 8.20, 'dung@gmail.com'),
+('SV005', 'Hoang Van Em', '2004-11-10', 'Nam', 'Cong nghe thong tin', 'CNTT15.2', 7.50, 'em@gmail.com'),
+('SV006', 'Do Thi Giang', '2005-02-18', 'Nu', 'Ke toan', 'KT15.1', 9.00, 'giang@gmail.com'),
+('SV007', 'Bui Van Hung', '2004-04-22', 'Nam', 'Cong nghe thong tin', 'CNTT15.2', 6.50, 'hung@gmail.com'),
+('SV008', 'Vu Thi Hoa', '2005-07-09', 'Nu', 'Marketing', 'MKT15.1', 8.70, 'hoa@gmail.com'),
+('SV009', 'Dang Van Khanh', '2004-09-14', 'Nam', 'Quan tri kinh doanh', 'QTKD15.1', 7.20, 'khanh@gmail.com'),
+('SV010', 'Ngo Thi Lan', '2005-12-05', 'Nu', 'Cong nghe thong tin', 'CNTT15.1', 8.90, 'lan@gmail.com'),
+('SV011', 'Mai Van Minh', '2004-05-17', 'Nam', 'Ke toan', 'KT15.2', 7.60, 'minh@gmail.com'),
+('SV012', 'Trinh Thi Ngoc', '2005-10-21', 'Nu', 'Cong nghe thong tin', 'CNTT15.2', 9.20, 'ngoc@gmail.com'),
+('SV013', 'Ly Van Phuc', '2004-03-08', 'Nam', 'Marketing', 'MKT15.1', 6.80, 'phuc@gmail.com'),
+('SV014', 'Cao Thi Quynh', '2005-06-30', 'Nu', 'Quan tri kinh doanh', 'QTKD15.2', 8.10, 'quynh@gmail.com'),
+('SV015', 'Ta Van Son', '2004-12-19', 'Nam', 'Cong nghe thong tin', 'CNTT15.1', 7.90, 'son@gmail.com');
+SELECT * FROM SinhVien;
+USE QLSinhVien;
+
+SELECT COUNT(*) AS TongSoSinhVien
+FROM SinhVien;
+USE QLSinhVien;
+
+INSERT INTO SinhVien
+(MaSV, HoTen, NgaySinh, GioiTinh, Khoa, Lop, DiemTB, Email)
+VALUES
+('SV016', 'Nguyen Van An', '2004-01-15', 'Nam', 'Cong nghe thong tin', 'DCCNTT15.1', 7.50, 'sv016@gmail.com'),
+('SV017', 'Tran Thi Binh', '2004-02-20', 'Nu', 'Cong nghe thong tin', 'DCCNTT15.1', 8.00, 'sv017@gmail.com'),
+('SV018', 'Le Van Cuong', '2003-03-12', 'Nam', 'Kinh te', 'DCKT15.1', 6.80, 'sv018@gmail.com'),
+('SV019', 'Pham Thi Dung', '2004-04-18', 'Nu', 'Ke toan', 'DCKT15.2', 7.20, 'sv019@gmail.com'),
+('SV020', 'Hoang Van Em', '2003-05-25', 'Nam', 'Cong nghe thong tin', 'DCCNTT15.2', 8.50, 'sv020@gmail.com'),
+('SV021', 'Do Thi Giang', '2004-06-10', 'Nu', 'Ngoai ngu', 'DCNN15.1', 7.80, 'sv021@gmail.com'),
+('SV022', 'Bui Van Hieu', '2003-07-08', 'Nam', 'Dien dien tu', 'DCDDT15.1', 6.50, 'sv022@gmail.com'),
+('SV023', 'Vu Thi Hoa', '2004-08-14', 'Nu', 'Cong nghe thong tin', 'DCCNTT15.2', 9.00, 'sv023@gmail.com'),
+('SV024', 'Dang Van Khanh', '2003-09-22', 'Nam', 'Kinh te', 'DCKT15.1', 7.00, 'sv024@gmail.com'),
+('SV025', 'Nguyen Thi Lan', '2004-10-05', 'Nu', 'Ke toan', 'DCKT15.2', 8.20, 'sv025@gmail.com'),
+('SV026', 'Tran Van Minh', '2003-11-16', 'Nam', 'Cong nghe thong tin', 'DCCNTT15.1', 7.60, 'sv026@gmail.com'),
+('SV027', 'Le Thi Nga', '2004-12-01', 'Nu', 'Ngoai ngu', 'DCNN15.1', 8.40, 'sv027@gmail.com'),
+('SV028', 'Pham Van Phuc', '2003-02-28', 'Nam', 'Dien dien tu', 'DCDDT15.1', 6.90, 'sv028@gmail.com'),
+('SV029', 'Hoang Thi Quynh', '2004-03-17', 'Nu', 'Cong nghe thong tin', 'DCCNTT15.2', 9.20, 'sv029@gmail.com'),
+('SV030', 'Do Van Son', '2003-04-09', 'Nam', 'Kinh te', 'DCKT15.1', 7.30, 'sv030@gmail.com');
+USE QLSinhVien;
+
+SELECT COUNT(*) AS TongSinhVien
+FROM SinhVien;
+DESCRIBE SinhVien;
+SELECT MaSV, HoTen, NgaySinh, GioiTinh,
+       Khoa, Lop, DiemTB, Email
+FROM SinhVien
+WHERE HoTen LIKE '%Nguyen%'
+AND DiemTB BETWEEN 0 AND 10
+ORDER BY MaSV ASC
+LIMIT 10 OFFSET 0;
+SELECT COUNT(*) AS TongSinhVien
+FROM SinhVien;
+SELECT COUNT(*) AS TongSinhVienSauLoc
+FROM SinhVien
+WHERE HoTen LIKE '%%'
+AND DiemTB BETWEEN 0 AND 10;
